@@ -1,9 +1,9 @@
 package br.edu.up.modelos;
 
 public class Aluno {
-    public static void executar() {
-        String NomeAluno = "Pedro Machado";
-        System.out.println(NomeAluno);
+    public void executar() {
+        String Aluno = "Pedro Machado";
+        System.out.println(Aluno);
 
         Double nota1 = 7.1;
         Double nota2 = 5.0;
