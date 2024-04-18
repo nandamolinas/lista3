@@ -1,7 +1,7 @@
 package br.edu.up.modelos;
 
 public class Exercicio3 {
-  public static void main(String[] args) {
+  public void executar() {
 
     String Vendedor = "Joao Vicente";
     double Salario = 2000;
