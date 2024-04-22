@@ -1,7 +1,7 @@
 package br.edu.up.modelos;
 
 public class Aluno {
-    public static void executar() {
+    public void executar() {
         String NomeAluno = "Pedro Machado";
         System.out.println(NomeAluno);
 
