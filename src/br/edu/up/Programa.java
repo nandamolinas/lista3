@@ -5,6 +5,7 @@ import br.edu.up.modelos.Exercicio2;
 import br.edu.up.modelos.Exercicio3;
 import br.edu.up.modelos.Exercicio4;
 import br.edu.up.modelos.Exercicio5;
+import br.edu.up.modelos.Exercicio6;
 
 
 public class Programa {
@@ -28,6 +29,10 @@ public class Programa {
                 Exercicio5 ValorPrestacoes = new Exercicio5();
 
                 ValorPrestacoes.executar();
+
+                Exercicio6 Porcentagem = new Exercicio6();
+
+                Porcentagem.executar();
 
         }
 

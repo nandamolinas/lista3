@@ -3,7 +3,7 @@ package br.edu.up.modelos;
 import java.util.Scanner;
 
 public class Exercicio6 {
-    public static void main(String[] args) {
+    public void executar() {
         try(Scanner Preco = new Scanner(System.in)){
             
             System.out.println("Digite o porcentagem que deseja que seja aplicado para o custo de venda(%): ");
