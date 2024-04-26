@@ -3,6 +3,10 @@ package br.edu.up;
 import br.edu.up.modelos.Aluno;
 import br.edu.up.modelos.Exercicio2;
 import br.edu.up.modelos.Exercicio3;
+import br.edu.up.modelos.Exercicio4;
+import br.edu.up.modelos.Exercicio5;
+import br.edu.up.modelos.Exercicio6;
+import br.edu.up.modelos.Exercicio7;
 
 public class Programa {
         public static void main(String[] args) {
@@ -17,6 +21,22 @@ public class Programa {
                 Exercicio2 Carro = new Exercicio2();
 
                 Carro.executar();
+
+                Exercicio4 Reais = new Exercicio4();
+
+                Reais.executar();
+
+                Exercicio5 ValorPrestacoes = new Exercicio5();
+
+                ValorPrestacoes.executar();
+
+                Exercicio6 Porcentagem = new Exercicio6();
+
+                Porcentagem.executar();
+
+                Exercicio7 Impostos = new Exercicio7();
+
+                Impostos.executar();
 
         }
 
