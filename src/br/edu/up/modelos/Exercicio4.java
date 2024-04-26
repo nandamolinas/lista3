@@ -14,4 +14,8 @@ public class Exercicio4 {
         }
 
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e966f16e447bda8af5f90c21c1f23c51e2745386
 }
