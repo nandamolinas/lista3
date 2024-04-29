@@ -7,7 +7,8 @@ import br.edu.up.modelos.Exercicio4;
 import br.edu.up.modelos.Exercicio5;
 import br.edu.up.modelos.Exercicio6;
 import br.edu.up.modelos.Exercicio7;
-
+import br.edu.up.modelos.Exercicio8;
+import br.edu.up.modelos.Exercicio9;
 
 public class Programa {
         public static void main(String[] args) {
@@ -38,6 +39,14 @@ public class Programa {
                 Exercicio7 Impostos = new Exercicio7();
 
                 Impostos.executar();
+
+                Exercicio8 Aluno = new Exercicio8();
+
+                Aluno.executar();
+
+                Exercicio9 Numeros = new Exercicio9();
+
+                Numeros.executar();
 
         }
 

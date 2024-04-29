@@ -3,7 +3,7 @@ package br.edu.up.modelos;
 import java.util.Scanner;
 
 public class Exercicio8 {
-    public static void main(String[] args) {
+    public void executar() {
         try (Scanner Notas = new Scanner(System.in)){
 
              System.out.println("Digite o Nome do Aluno: ");
