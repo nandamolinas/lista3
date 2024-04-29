@@ -45,6 +45,10 @@ public class Programa {
 
                 Idade.executar();
 
+                Exercicio11 Sexo = new Exercicio11();
+
+                Sexo.executar();
+
         }
 
 }
