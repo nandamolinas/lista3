@@ -1,4 +1,4 @@
-package br.edu.up.modelos;
+package br.edu.up.Exercicios;
 
 public class Exercicio2 {
     public void executar() {
