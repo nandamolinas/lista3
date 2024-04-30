@@ -53,6 +53,14 @@ public class Programa {
 
                 Desconto.executar();
 
+                Exercicio13 Servico = new Exercicio13();
+
+                Servico.executar();
+
+                Exercicio14 Produtos = new Exercicio14();
+
+                Produtos.executar();
+
         }
 
 }
