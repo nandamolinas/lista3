@@ -10,7 +10,7 @@ public class Exercicio7 {
             double PorcentagemDistribuidor = 0.28;
 
             System.out.println("Insira o custo de Fabrica do carro: ");
-            double Custo = Valor.nextInt();
+            double Custo = Valor.nextDouble();
 
             double CustodeFabrica = Custo * (Impostos);
             double CustoDistribuidor = (Custo + CustodeFabrica) * (PorcentagemDistribuidor);

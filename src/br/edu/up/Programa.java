@@ -49,6 +49,10 @@ public class Programa {
 
                 Sexo.executar();
 
+                Exercicio12 Desconto = new Exercicio12();
+
+                Desconto.executar();
+
         }
 
 }

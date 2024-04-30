@@ -9,7 +9,7 @@ public class Exercicio5 {
             int ValorPrestacoes = 5;
 
             System.out.println("Digita o Valor total da compra: ");
-            double Valor = Quantidade.nextInt();
+            double Valor = Quantidade.nextDouble();
 
             System.out.println("Resultado Das Prestacoes: " + (Valor / ValorPrestacoes));
         }
