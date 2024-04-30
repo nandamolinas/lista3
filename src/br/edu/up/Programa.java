@@ -61,6 +61,14 @@ public class Programa {
 
                 Produtos.executar();
 
+                Exercicio15 Gasolina = new Exercicio15();
+
+                Gasolina.executar();
+
+                Exercicio16 Salario = new Exercicio16();
+
+                Salario.executar();
+
         }
 
 }

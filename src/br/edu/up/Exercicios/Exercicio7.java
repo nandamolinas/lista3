@@ -6,6 +6,7 @@ public class Exercicio7 {
        public void executar() {
         try (Scanner Valor = new Scanner(System.in)) {
 
+            
             double Impostos = 0.45;
             double PorcentagemDistribuidor = 0.28;
 

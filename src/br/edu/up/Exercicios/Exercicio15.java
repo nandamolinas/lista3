@@ -3,7 +3,7 @@ package br.edu.up.Exercicios;
 import java.util.Scanner;
 
 public class Exercicio15 {
-    public static void main(String[] args) {
+    public void executar() {
         try(Scanner scanner = new Scanner(System.in)){
 
            double TotalDesconto = 0;

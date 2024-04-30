@@ -4,6 +4,7 @@ public class Exercicio3 {
 
     public void executar() {
 
+        
         String Vendedor = "Joao Vicente";
         double Salario = 2000;
         double Vendas = 30000;
