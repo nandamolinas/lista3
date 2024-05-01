@@ -69,6 +69,11 @@ public class Programa {
 
                 Salario.executar();
 
+                Exercicio17 SalarioReajustado = new Exercicio17();
+
+                SalarioReajustado.executar();
+
+
         }
 
 }

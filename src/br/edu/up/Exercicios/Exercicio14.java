@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio14 {
     public void executar() {
-       try(Scanner scanner = new Scanner(System.in)){
+       try(Scanner leitor = new Scanner(System.in)){
 
            double SomaPrecoCusto = 0;
            double SomaPrecoVenda = 0;
@@ -12,10 +12,10 @@ public class Exercicio14 {
            for (int i = 1; i <= 40; i++) {
                System.out.println("Produto " + i + ":");
                System.out.print("Preço de custo: ");
-               double precoCusto = scanner.nextDouble();
+               double precoCusto = leitor.nextDouble();
     
                System.out.print("Preço de venda: ");
-               double precoVenda = scanner.nextDouble();
+               double precoVenda = leitor.nextDouble();
     
                double lucro = precoVenda - precoCusto;
                String resultado = lucro > 0 ? "Lucro" : lucro < 0 ? "Prejuízo" : "Empate";

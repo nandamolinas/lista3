@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio16 {
     public void executar() {
-        try (Scanner scanner = new Scanner(System.in)){
+        try (Scanner leitor = new Scanner(System.in)){
 
             double SalarioMinimo = 1100; 
             int TotalMenorTres = 0;
@@ -14,8 +14,8 @@ public class Exercicio16 {
             int TotalFuncionarios = 584;
     
             for (int i = 0; i < TotalFuncionarios; i++) {
-                System.out.print("Digite o salário do funcionário " + (i + 1) + ": ");
-                double Salario = scanner.nextDouble();
+                System.out.print("Digite o salario do funcionario " + (i + 1) + ": ");
+                double Salario = leitor.nextDouble();
     
                 double Reajuste;
                 if (Salario < 3 * SalarioMinimo) {
@@ -33,14 +33,14 @@ public class Exercicio16 {
                 }
     
                 double salarioReajustado = Salario + Reajuste;
-                System.out.println("Salário antes do reajuste: R$" + Salario);
-                System.out.println("Salário após o reajuste: R$" + salarioReajustado);
+                System.out.println("Salário antes do reajuste: " + Salario);
+                System.out.println("Salário após o reajuste: " + salarioReajustado);
             }
     
-            System.out.println("\nTotal de funcionários que ganham menos de 3 salários mínimos: " + TotalMenorTres);
-            System.out.println("Total de funcionários que ganham entre 3 e 10 salários mínimos: " + TotalTresADez);
-            System.out.println("Total de funcionários que ganham entre 10 e 20 salários mínimos: " + TotalDezAVinte);
-            System.out.println("Total de funcionários que ganham mais de 20 salários mínimos: " + TotalOutros);
+            System.out.println("\nTotal de funcionarios que ganham menos de 3 salarios minimos: " + TotalMenorTres);
+            System.out.println("Total de funcionarios que ganham entre 3 e 10 salarios minimos: " + TotalTresADez);
+            System.out.println("Total de funcionarios que ganham entre 10 e 20 salarios minimos: " + TotalDezAVinte);
+            System.out.println("Total de funcionarios que ganham mais de 20 salarios minimos: " + TotalOutros);
         }
 
 
